@@ -1,5 +1,5 @@
-#Pokédex 
-##Description
+# Pokédex 
+## Description
 This project was made to practice and improve my programming skills,
 PokeAPI is used in this project as so it is made with HTML, CSS, JavaScript,
 and the most challenging.. Bulma.
