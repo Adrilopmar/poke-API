@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>PokéAPI</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-    <nav class="panel poke-card">
-        <p class="panel-heading">
-          Pokédex
-        </p>
+      <nav class="panel poke-card">
+        <p class="panel-heading">Pokédex</p>
         <div class="panel-block">
           <p class="control has-icons-left">
-            <input id="searchBar" class="input" type="text" placeholder="Search">
+            <input
+              id="searchBar"
+              class="input"
+              type="text"
+              placeholder="Search"
+            />
             <span class="icon is-left">
               <i class="fas fa-search" aria-hidden="true"></i>
             </span>
@@ -28,11 +37,10 @@
     <div class="modal" id="pokeModal">
       <div class="modal-background"></div>
       <div class="modal-content">
-        <div class="is-4by3 " id="pokedexContainer">
-        </div>
+        <div class="is-4by3" id="pokedexContainer"></div>
       </div>
       <button class="modal-close is-large" aria-label="close"></button>
     </div>
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
